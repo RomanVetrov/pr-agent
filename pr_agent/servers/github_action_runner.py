@@ -3,6 +3,11 @@ import json
 import os
 from typing import Union
 
+
+print("--- !!! USING MY CUSTOM FORK OF PR-AGENT !!! ---", flush=True)
+
+
+
 from pr_agent.agent.pr_agent import PRAgent
 from pr_agent.config_loader import get_settings
 from pr_agent.git_providers import get_git_provider
