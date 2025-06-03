@@ -6,7 +6,7 @@
 
 [config]
 # models
-model="gpt-3.5-turbo"
+model="gpt-4o"
 fallback_models=[]
 #model_reasoning="o4-mini" # dedictated reasoning model for self-reflection
 #model_weak="gpt-4o" # optional, a weaker model to use for some easier tasks
