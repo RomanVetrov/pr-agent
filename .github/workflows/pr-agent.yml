@@ -27,7 +27,7 @@ jobs:
 
       - name: Run PR Agent
         run: |
-          GITHUB_USER_TOKEN="${{ secrets.GITHUB_TOKEN }}" \
-          DEEPSEEK_API_KEY="${{ secrets.DEEPSEEK_API_KEY }}" \
+          export GITHUB__USER_TOKEN="${{ secrets.GITHUB_TOKEN }}"
+          export DEEPSEEK__KEY="${{ secrets.DEEPSEEK_API_KEY }}"
           python -m pr_agent.cli --pr_url="${{ github.event.pull_request.html_url }}" review
           
