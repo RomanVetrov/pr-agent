@@ -4,3 +4,6 @@ enable_auto_approval = true
 
 llm_provider = "litellm"
 config.model = "deepseek-chat"
+
+[github]
+user_token = "${{ secrets.GITHUB_TOKEN }}"
