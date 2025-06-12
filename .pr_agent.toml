@@ -1,13 +1,12 @@
+llm_provider = "litellm"
+
+[litellm]
+api_key = "${DEEPSEEK_API_KEY}"
+model = "deepseek-chat"
+
 [pr_reviewer]
 enable_review_labels_effort = true
 enable_auto_approval = true
-
-[config]
-llm_provider = "litellm"
-model = "deepseek-chat"
-
-llm_provider = "litellm"
-config.model = "deepseek-chat"
 
 [github]
 user_token = "${GITHUB_USER_TOKEN}"
