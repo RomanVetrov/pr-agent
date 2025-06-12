@@ -6,4 +6,4 @@ llm_provider = "litellm"
 config.model = "deepseek-chat"
 
 [github]
-user_token = "${{ secrets.GITHUB_TOKEN }}"
+user_token = "${GITHUB_USER_TOKEN}"
