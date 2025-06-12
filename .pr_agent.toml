@@ -1,3 +1,6 @@
 [pr_reviewer]
 enable_review_labels_effort = true
 enable_auto_approval = true
+
+llm_provider = "litellm"
+config.model = "deepseek-chat"
